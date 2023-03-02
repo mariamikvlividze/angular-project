@@ -1,0 +1,193 @@
+.text{
+  background-color:#FEFEFE;
+    width: 2000px;
+    height: 100px;
+    margin-top: 30px;
+  position: relative;
+  margin-left:80px
+}
+.text h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+.container2{
+    
+     display: flex;
+    justify-content:center;
+    margin-left: 300px;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+.chicken{
+   display: flex;
+  margin-left: 600px;
+  margin-top:-150px ;
+  
+}
+.steak{
+   display: flex;
+   margin-left: 600px;
+    margin-top: -140px;
+}
+.contact{
+    background-color:#EDF1F4;
+    height: 80px;
+    margin-left: 20px;
+}
+.h5{
+    position: relative;
+    margin-left: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.review{
+    color:#F99D00 ;
+    margin-left: 10px;
+    }
+.pizza{
+    display: flex;
+    margin-left: 600px;
+}
+.right{
+    border-radius: 60px;
+    border-color: #F99D00;
+    background-color: #F99D00;
+    width: 60px;
+    height: 60px;
+  
+   
+}
+
+.contact1{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+.phone{
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+
+
+}
+span{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.delivery{
+    color: #F99D00;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 80px;
+   color: black;
+   
+  
+}
+.pizza2{
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    filter: blur(8px);
+   
+}
+title{
+    color: #030404;
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
+.bg{
+    background-image: url(../../assets/pizza.jpg);
+   background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+     filter: blur(6px);
+
+}
+
+.card{
+    display: flex;
+   margin-top: -350px;
+   margin-left: 300px;
+   background-color:#00030558 ;
+   height: 23rem;
+   
+   
+ 
+}
+.card-text{
+    color: #000000;
+}
+.cardimg{
+height: 200px;
+width: 382px;
+
+}
+    
+.btn{
+    background-color: #95999c ;
+    margin-top: -20px;
+}
+  
+
+.checking{
+   margin-left: 5px;
+}
+.card3{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.comment{
+    height: 400px;
+  background-color: #FF4C8E;
+  margin-top: 150px;
+}
+.commenth2{
+   
+    color: #EDF1F4;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-left: 580px;
+  position: relative;
+ 
+}
+.para{
+   margin-top: 130px;
+   margin-left: 350px;
+   color: #EDF1F4;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.unknown{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-left:650px;
+}
+.element{
+  font-size: 20px;
+}
+.star{
+    color: #F99D00;
+}
+.rating{
+    margin-left: 640px;
+}

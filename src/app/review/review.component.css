@@ -1,0 +1,47 @@
+.comment{
+    height: 400px;
+  background-color: #FF4C8E;
+  margin-top: 150px;
+}
+.commenth2{
+   
+    color: #EDF1F4;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-left: 580px;
+  position: relative;
+ 
+}
+
+.para{
+   margin-top: 130px;
+   margin-left: 350px;
+   color: #EDF1F4;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.unknown{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-left:650px;
+}
+.element{
+  font-size: 20px;
+}
+.star{
+    color: #F99D00;
+}
+.rating{
+    margin-left: 640px;
+}
+.comment1{
+  background-color:  #904d65;
+  margin-top: 100px;
+}
+.comment2{
+  background-color: #d7678f; 
+  margin-top: 100px;
+}
+.comment3{
+  background-color: #210810;
+  margin-top: 100px;
+}

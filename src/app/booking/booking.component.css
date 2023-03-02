@@ -1,0 +1,53 @@
+div{
+   position: sticky; 
+}
+img{
+   width: 1500px;
+   height: 1500px;
+}
+.whiteboard{
+    width: 800px;
+    height: 700px;
+  background-color: rgb(13, 14, 14);
+  border-radius: 20px;
+  display: flex;
+ margin-top: -1000px;
+ margin-left: 300px;
+
+ flex-direction: column;
+}
+input{
+    height: 40px;
+    width: 250px;
+    margin-top: 50px;
+    border-style:hidden;
+    background-color: #ffffff00;
+  
+}
+h3{
+    margin-left: 250px;
+    color:#ffffff ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+button{
+    width: 70px;
+    margin-left: 5px;
+   
+}
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+   
+}
+.inpts{
+    margin-left: 200px;
+ 
+    
+}
+select{
+    margin-top: 10px;
+    margin-left: 20px;
+}

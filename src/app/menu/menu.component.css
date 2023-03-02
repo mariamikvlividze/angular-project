@@ -1,0 +1,61 @@
+img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+ a{
+    border: 1px solid white;
+    border-radius: 16px;
+    margin:8px;
+ 
+  
+}
+img:hover{
+    opacity: 0.5;
+   
+}
+.foodName{
+   color: #373743;
+}
+.container{
+   position: relative;
+
+    padding: 8px 16px;
+}
+.icon{
+  color: brown;
+  position: absolute;
+    right: 20px  ;
+}
+.icon.not{
+    color: rgb(50, 53, 56);
+}
+button{
+  
+ margin-top: -500px;
+ margin-left: 90px;
+ background-color: #37374340;
+
+}
+.modal.show{
+    display: block;
+}
+.heartbutton
+{
+  border-style: none;
+  background-color: #FFFFFF;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}

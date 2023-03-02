@@ -1,0 +1,57 @@
+<ul>
+    <li *ngFor="let info of MenuList; let i= index" >
+      <a >
+      
+         <img src="{{info.img}}" alt="">
+       
+
+         <div class="container">
+         <div class="foodname">
+                  {{info.Name}}
+                  <span class="icon {{info.favorite?'':'not'}} "> 
+                    <button  class="heartbutton"(click)="ChangeColor(i)" [ngClass]="{'red':toggle, 'black':!toggle}" > 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                      </svg></button> 
+                  </span>
+                  <div style="text-align:center">
+                    <star-rating [value]="info.rating"
+                     [totalstars]="5"
+                      checkedcolor="#F99D00"
+                       uncheckedcolor="grey"
+                        size="25px" 
+                        [readonly]="true">
+                        
+                        </star-rating>
+                  </div>
+                  <span>{{info.price}}.00gel</span>
+                <button type="button"  class="btn btn-dark" data-toggle="modal" data-target="#myModal" (click)="test(i,info )">
+                    check recipe
+                  </button>
+         </div>
+        </div>
+        </a>
+    </li>
+</ul> 
+
+
+
+<div  class="modal" tabindex="-1" [ngClass]="{'show':showmodal}"  >
+  <div  class="modal-dialog">
+    <div   class="modal-content">
+      <div  class="modal-header">
+        <h5  class="modal-title">{{index.Name}} </h5>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="exit()"></button>
+      </div>
+      <div class="modal-body">
+       <p>{{index.recipe}}</p>
+      </div>
+      
+    
+    </div>
+  </div>
+</div>
+
+
+

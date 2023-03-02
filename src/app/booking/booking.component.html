@@ -1,0 +1,23 @@
+   <div >
+  <img src="../../assets/red-brown-restaurant.jpg" alt="">
+  <div class="whiteboard" >
+   <h3> fill this blank</h3>
+   <div class="inpts"  >
+  <input [(ngModel)]="guestInfo.fullName"  type="text" class="form-control"  placeholder="enter your  full name" >
+  <input  [(ngModel)]="guestInfo.email" type="text" class="form-control"  placeholder="enter your email" >
+  <input [(ngModel)]="guestInfo.phoneNumber"  type="text" class="form-control"  placeholder="enter your  phonenumber" >
+   <select   #guests (change)="onInfoSave()" >
+      <option  value="">guest</option>
+      <option value="1">for one person</option>
+      <option  value="2">for two people</option>
+      <option  value="3">for three people</option>
+      <option   value="4">four and more</option>
+   </select>
+     <div  class="buttons">
+     <button (click)="onInfoSave()" type="button" class="btn btn-dark">save</button>
+     <button (click)="UpdateBtn()" type="button" class="btn btn-dark">update</button> 
+     </div>
+    </div>
+ </div>
+ </div> 
+
