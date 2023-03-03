@@ -15,14 +15,15 @@
                       </svg></button> 
                   </span>
                   <div style="text-align:center">
-                    <star-rating [value]="info.rating"
+                     <star-rating [value]="info.rating"
                      [totalstars]="5"
                       checkedcolor="#F99D00"
                        uncheckedcolor="grey"
                         size="25px" 
                         [readonly]="true">
                         
-                        </star-rating>
+                        </star-rating> 
+                       
                   </div>
                   <span>{{info.price}}.00gel</span>
                 <button type="button"  class="btn btn-dark" data-toggle="modal" data-target="#myModal" (click)="test(i,info )">

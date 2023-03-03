@@ -15,10 +15,8 @@ export class BookingComponent {
   
   onInfoSave(){
     this.guestInfoArr.push(this.guestInfo)
-
-   this.guestInfo= new Info()
-
     console.log(this.guestInfoArr)
+    
 
 
 

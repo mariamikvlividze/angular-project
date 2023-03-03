@@ -6,7 +6,7 @@
   <input [(ngModel)]="guestInfo.fullName"  type="text" class="form-control"  placeholder="enter your  full name" >
   <input  [(ngModel)]="guestInfo.email" type="text" class="form-control"  placeholder="enter your email" >
   <input [(ngModel)]="guestInfo.phoneNumber"  type="text" class="form-control"  placeholder="enter your  phonenumber" >
-   <select   #guests (change)="onInfoSave()" >
+   <select  #guests (change)="onInfoSave()" >
       <option  value="">guest</option>
       <option value="1">for one person</option>
       <option  value="2">for two people</option>

@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { RatingModule } from 'ng-starrating';
 import { ReviewComponent } from './review/review.component';
-
+import { NgxStarRatingModule } from 'ngx-star-rating';
 
 @NgModule({
   declarations: [
@@ -35,6 +35,7 @@ import { ReviewComponent } from './review/review.component';
     HttpClientModule,
     FormsModule,
     RatingModule,
+    NgxStarRatingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
