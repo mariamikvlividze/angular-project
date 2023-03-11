@@ -45,3 +45,7 @@
   background-color: #210810;
   margin-top: 100px;
 }
+.rating2{
+   display: flex;
+   justify-content: center;
+}

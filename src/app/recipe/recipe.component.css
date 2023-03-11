@@ -1,4 +1,29 @@
-.card{
-   position: absolute;
-   margin-left: 400px;
+.btn-primary{
+   height: 38px;
+}
+.input-group{
+   margin-top: 20px;
+}
+img{
+ width: 400px;
+height: 300px;
+margin-top: 10px;
+border: 1px solid white;
+      border-radius: 16px;
+      margin:8px;
+}
+
+
+ul{
+   list-style-type: none;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.modal.show{
+   display: block;
 }

@@ -25,23 +25,20 @@ input{
   
 }
 h3{
-    margin-left: 250px;
+    margin-left: 270px;
+    margin-top: 30px;
     color:#ffffff ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
 }
 
 button{
-    width: 70px;
-    margin-left: 5px;
-   
-}
-.buttons{
-    display: flex;
-    margin-top: 20px;
+    width: 250px;
     margin-left: 40px;
+margin-top: 30px;
    
 }
+
 .inpts{
     margin-left: 200px;
  

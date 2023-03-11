@@ -99,7 +99,11 @@ a{
     margin-left: 80px;
    color: black;
    
-  
+}
+.reviewbtn{
+     position: absolute;
+     margin-top: -60px;
+     margin-left: 430px;
 }
 .pizza2{
     width: 100%;
@@ -115,12 +119,12 @@ title{
     margin-top: -200px;
 }
 .bg{
-    background-image: url(../../assets/pizza.jpg);
+    background-image: url(../../assets/bg.jpg);
    background-size: cover;
     width: 100%;
     height: 400px;
     margin-top: 200px;
-     filter: blur(6px);
+     filter: blur(3px);
 
 }
 
@@ -128,18 +132,18 @@ title{
     display: flex;
    margin-top: -350px;
    margin-left: 300px;
-   background-color:#00030558 ;
-   height: 23rem;
-   
-   
- 
+   height: 18rem;
+   background-color: #03040463;
 }
-.card-text{
-    color: #000000;
-}
+
+ .card-text{
+    color: #ffffff;
+} 
 .cardimg{
-height: 200px;
-width: 382px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    
 
 }
     

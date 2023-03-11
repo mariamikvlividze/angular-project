@@ -9,23 +9,32 @@ import { Info } from './booking.model';
 export class BookingComponent {
   guestInfo:Info= new Info()
   guestInfoArr:Info[]=[]
-
+  selectValue:any;
+  selectPlace:any;
  
 
   
   onInfoSave(){
     this.guestInfoArr.push(this.guestInfo)
+   
+    this.guestInfo=new Info()
+
+    this.selectValue = "0";
     console.log(this.guestInfoArr)
+    this.selectPlace='0'
+
+     return this.onChange()
     
 
 
-
   }
-    UpdateBtn(){
-      this.guestInfoArr.splice(1)
+   
+onChange(){
 
-      this.guestInfo= new Info()
-
+  this.guestInfoArr.push(this.selectValue)
+}  
+onPlaceSelect(){
+  this.guestInfoArr.push(this.selectPlace)
 }
 
 }

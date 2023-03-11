@@ -15,8 +15,7 @@ ul{
     border: 1px solid white;
     border-radius: 16px;
     margin:8px;
- 
-  
+
 }
 img:hover{
     opacity: 0.5;
@@ -54,7 +53,7 @@ button{
   background-color: #FFFFFF;
 }
 .red{
-    color: red;
+    fill: red;
 }
 .black{
     color: black;

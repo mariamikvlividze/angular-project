@@ -15,7 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { RatingModule } from 'ng-starrating';
 import { ReviewComponent } from './review/review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
-
+ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +36,8 @@ import { NgxStarRatingModule } from 'ngx-star-rating';
     FormsModule,
     RatingModule,
     NgxStarRatingModule,
+    Ng2SearchPipeModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

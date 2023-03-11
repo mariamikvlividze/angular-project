@@ -18,34 +18,60 @@ export class MenuComponent implements OnInit {
 
 
   showmodal:boolean=false;
-  index:any;
-   test(i:number,info:any){
-    //  this.ModalInfo.emit(this.MenuList)
-      console.log(info)
-      this.index  =  info;
-      this.showmodal = true;
-      console.log(this.MenuList)
-      
 
-   }
-   exit(){
-    this.showmodal=false;
-   }
-
-
-
-     toggle=true
-   
-
-   ChangeColor(i:any){
-     this.toggle=!this.toggle;
+  index:any=undefined;
   
+   test(info:any,i:number){
+
+      this.index  =  info;
+
+      this.showmodal = true;
+      
+   }
+  
+  
+   exit(){
+
+    this.showmodal=false;
+
+   }
+
+
+
+     toggle:number=-1;
+     sum1:boolean=false;
+     arr: any = [];
+
      
 
+   ChangeColor(i:number){
+       this.toggle=i
+       console.log(i===this.toggle)
+        this.sum1=!this.sum1
+       
+ 
+    
+     
+      if(this.arr.includes(i)){
+        this.arr.pop(i)
+      }
+      else{
+         this.arr.push(i)
+      }
+        
+             console.log(this.arr)
+   }
 
-}
      btnArr:any=[]
    
-    
+    test2(i:number){
+      return i===this.toggle
+    }
+
+
+    test3(num:any){
+      console.log(this.arr.includes(num))
+     return  this.arr.includes(num)
+    }
 }
 
