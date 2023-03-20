@@ -142,10 +142,13 @@ title{
 .cardimg{
     width: 200px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 3px;
+    margin-left: 25px;
+    width: fit-content;
     
 
 }
+
     
 .btn{
     background-color: #95999c ;
@@ -195,3 +198,4 @@ title{
 .rating{
     margin-left: 640px;
 }
+
